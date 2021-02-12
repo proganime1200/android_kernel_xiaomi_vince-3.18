@@ -5,5 +5,5 @@ jobs:
       - image: rama982/dokar:latest
     steps:
       - checkout
-      - run: wget wget https://github.com/rama982/scripts/raw/master/build_on_docker.sh
+      - run: wget https://github.com/rama982/scripts/raw/master/build_on_docker.sh
       - run: bash build_on_docker.sh
